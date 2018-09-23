@@ -1,0 +1,16 @@
+{
+    "name": "eltortuganegra/php-tdd-ddd-template-composer",
+    "description": "This is a template for develop php projects with TDD and DDD with composer.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eltortuganegra",
+            "email": "jorge.sanchez@eltortuganegra.com"
+        }
+    ],
+    "require": {}
+}
