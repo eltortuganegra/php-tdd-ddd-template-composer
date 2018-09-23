@@ -12,5 +12,11 @@
             "email": "jorge.sanchez@eltortuganegra.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+      "classmap": [
+        "src/"
+      ]
+    }
+
 }
