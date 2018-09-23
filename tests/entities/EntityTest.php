@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class EntityTest extends TestCase
 {
-    public function testItShouldCreateInstanceOfEntityWhenWeCreateAnInstaceWithFactory()
+    public function testItShouldCreateInstanceOfEntityWhenWeCreateAnInstanceWithFactory()
     {
         // Arrange
         $entity = EntityFactory::build();
