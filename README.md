@@ -25,15 +25,17 @@ composer install
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Phpunit is used such as testing framework. You can know more about it on official page.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+These test should test all components of DDD. An example of each element is created at test folder.
+You can execute all test in a console . You need go to root of the project and execute:
 
 ```
-Give an example
+./vendor/bin/phpunit tests
 ```
+
 
 ### And coding style tests
 
