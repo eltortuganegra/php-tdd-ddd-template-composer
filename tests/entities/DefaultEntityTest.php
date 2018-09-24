@@ -1,18 +1,19 @@
 <?php
 
-use app\entities\Entity;
-use app\entities\EntityFactory;
+
+use app\entities\defaultEntity\DefaultEntity;
+use app\entities\defaultEntity\DefaultEntityFactory;
 use PHPUnit\Framework\TestCase;
 
-class EntityTest extends TestCase
+class DefaultEntityTest extends TestCase
 {
     public function testItShouldCreateInstanceOfEntityWhenWeCreateAnInstanceWithFactory()
     {
         // Arrange
-        $entity = EntityFactory::build();
+        $entity = DefaultEntityFactory::build();
 
         // Act
-        $isInstanceOfEntity = $entity instanceof Entity;
+        $isInstanceOfEntity = $entity instanceof DefaultEntity;
 
         // Assert
         $this->assertEquals(true, $isInstanceOfEntity);
